@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BankConfirmation_DTO/1.0.0": {
+        "runtime": {
+          "BankConfirmation_DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankConfirmation_DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BankConfirmation_REST.props" />
+</Project>
