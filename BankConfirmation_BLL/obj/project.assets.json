@@ -562,6 +562,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Configuration.ConfigurationManager/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -987,7 +1000,7 @@
           }
         }
       },
-      "BankConfirmation_DAL_EF/1.0.0": {
+      "BankConfirmation_DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -997,15 +1010,18 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3"
         },
         "compile": {
-          "bin/placeholder/BankConfirmation_DAL_EF.dll": {}
+          "bin/placeholder/BankConfirmation_DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BankConfirmation_DAL_EF.dll": {}
+          "bin/placeholder/BankConfirmation_DAL.dll": {}
         }
       },
       "BankConfirmation_DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "compile": {
           "bin/placeholder/BankConfirmation_DTO.dll": {}
         },
@@ -1917,6 +1933,36 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Configuration.ConfigurationManager/6.0.1": {
       "sha512": "jXw9MlUu/kRfEU0WyTptAVueupqIeE3/rl0EZDMlf8pcvJnitQ8HeVEp69rZdaStXwTV72boi/Bhw8lOeO+U2w==",
       "type": "package",
@@ -2780,10 +2826,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "BankConfirmation_DAL_EF/1.0.0": {
+    "BankConfirmation_DAL/1.0.0": {
       "type": "project",
-      "path": "../BankConfirmation_DAL_EF/BankConfirmation_DAL_EF.csproj",
-      "msbuildProject": "../BankConfirmation_DAL_EF/BankConfirmation_DAL_EF.csproj"
+      "path": "../BankConfirmation_DAL/BankConfirmation_DAL.csproj",
+      "msbuildProject": "../BankConfirmation_DAL/BankConfirmation_DAL.csproj"
     },
     "BankConfirmation_DTO/1.0.0": {
       "type": "project",
@@ -2798,7 +2844,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "BankConfirmation_DAL_EF >= 1.0.0",
+      "BankConfirmation_DAL >= 1.0.0",
       "BankConfirmation_DTO >= 1.0.0",
       "BankConfirmation_IF >= 1.0.0"
     ]
@@ -2810,11 +2856,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_BLL\\BankConfirmation_BLL.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_BLL\\BankConfirmation_BLL.csproj",
       "projectName": "BankConfirmation_BLL",
-      "projectPath": "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_BLL\\BankConfirmation_BLL.csproj",
+      "projectPath": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_BLL\\BankConfirmation_BLL.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_BLL\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2835,14 +2881,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_DAL_EF\\BankConfirmation_DAL_EF.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_DAL_EF\\BankConfirmation_DAL_EF.csproj"
+            "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_DAL\\BankConfirmation_DAL.csproj": {
+              "projectPath": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_DAL\\BankConfirmation_DAL.csproj"
             },
-            "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_DTO\\BankConfirmation_DTO.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_DTO\\BankConfirmation_DTO.csproj"
+            "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_DTO\\BankConfirmation_DTO.csproj": {
+              "projectPath": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_DTO\\BankConfirmation_DTO.csproj"
             },
-            "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_IF\\BankConfirmation_IF.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_IF\\BankConfirmation_IF.csproj"
+            "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_IF\\BankConfirmation_IF.csproj": {
+              "projectPath": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_IF\\BankConfirmation_IF.csproj"
             }
           }
         }

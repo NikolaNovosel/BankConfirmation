@@ -36,3 +36,43 @@ C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConf
 C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\refint\BankConfirmation_BLL.dll
 C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.pdb
 C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\ref\BankConfirmation_BLL.dll
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_BLL.deps.json
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_BLL.dll
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_BLL.pdb
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_IF.dll
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_IF.pdb
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.csproj.AssemblyReference.cache
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.AssemblyInfoInputs.cache
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.AssemblyInfo.cs
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.sourcelink.json
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConf.470861C7.Up2Date
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.dll
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\refint\BankConfirmation_BLL.dll
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.pdb
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\ref\BankConfirmation_BLL.dll
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_DAL.dll
+C:\Users\DELL\New\Work\IT\Required Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_DAL.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_BLL.deps.json
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_BLL.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_BLL.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_DAL.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_IF.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_DAL.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\bin\Debug\net8.0\BankConfirmation_IF.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.csproj.AssemblyReference.cache
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.AssemblyInfoInputs.cache
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.AssemblyInfo.cs
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.sourcelink.json
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConf.470861C7.Up2Date
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\refint\BankConfirmation_BLL.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\BankConfirmation_BLL.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_BLL\obj\Debug\net8.0\ref\BankConfirmation_BLL.dll

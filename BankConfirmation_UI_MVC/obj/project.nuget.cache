@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pXMX52yb1kF+B5RDQFfxy6L1mZLAeS7binYiVb9aknem3pfxeqH0KCjNrsxXdGX2CVwLW+tBRx3RflJdWcvXnA==",
+  "dgSpecHash": "2xOSC7eErN8IxvrPRVhG7W4cvEVy8LeAquNDWQiNLtjNg2OTxrDcF/8R4aR4qHhZmJwwK6jjIebnfdq6hsMxnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Documents\\Work\\IT\\Requested Work\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_UI_MVC\\BankConfirmation_UI_MVC.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation\\BankConfirmation_UI_MVC\\BankConfirmation_UI_MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

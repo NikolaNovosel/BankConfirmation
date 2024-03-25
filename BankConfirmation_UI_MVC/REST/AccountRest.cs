@@ -11,12 +11,10 @@ namespace BankConfirmation_UI_MVC.REST
         {
             DeleteT(id, "account");
         }
-
         public List<Account> GetAll()
         {
             return GetList("account");
         }
-
         public Account GetById(int id)
         {
             return GetT(id, "account");
@@ -26,7 +24,6 @@ namespace BankConfirmation_UI_MVC.REST
         {
             PutT(account, "account");
         }
-
         public void Update(Account account)
         {
             PostT(account, "account");

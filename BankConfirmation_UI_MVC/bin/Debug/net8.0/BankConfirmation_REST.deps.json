@@ -562,7 +562,7 @@
       },
       "BankConfirmation_BLL/1.0.0": {
         "dependencies": {
-          "BankConfirmation_DAL_EF": "1.0.0",
+          "BankConfirmation_DAL": "1.0.0",
           "BankConfirmation_DTO": "1.0.0",
           "BankConfirmation_IF": "1.0.0"
         },
@@ -570,7 +570,7 @@
           "BankConfirmation_BLL.dll": {}
         }
       },
-      "BankConfirmation_DAL_EF/1.0.0": {
+      "BankConfirmation_DAL/1.0.0": {
         "dependencies": {
           "BankConfirmation_DTO": "1.0.0",
           "BankConfirmation_IF": "1.0.0",
@@ -578,10 +578,13 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.3"
         },
         "runtime": {
-          "BankConfirmation_DAL_EF.dll": {}
+          "BankConfirmation_DAL.dll": {}
         }
       },
       "BankConfirmation_DTO/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "runtime": {
           "BankConfirmation_DTO.dll": {}
         }
@@ -1041,7 +1044,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BankConfirmation_DAL_EF/1.0.0": {
+    "BankConfirmation_DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

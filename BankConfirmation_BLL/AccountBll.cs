@@ -7,27 +7,27 @@ namespace BankConfirmations_BLL
     {
         public static List<Account> GetAll()
         {
-            IAccount accountDal = Factory.GetAccount();
+            IAccount accountDal = Factory.GetAccount(DalType.ado);
             return accountDal.GetAll();
         }
         public static Account GetById(int id)
         {
-            IAccount accountDal = Factory.GetAccount();
+            IAccount accountDal = Factory.GetAccount(DalType.ado);
             return accountDal.GetById(id);
         }
         public static void Insert(Account account)
         {
-            IAccount accountDal = Factory.GetAccount();
+            IAccount accountDal = Factory.GetAccount(DalType.ado);
             accountDal.Insert(account);
         }
         public static void Update(Account account)
         {
-            IAccount accountDal = Factory.GetAccount();
+            IAccount accountDal = Factory.GetAccount(DalType.ef);
             accountDal.Update(account);
         }
         public static void Delete(int id)
         {
-            IAccount accountDal = Factory.GetAccount();
+            IAccount accountDal = Factory.GetAccount(DalType.ado);
             accountDal.Delete(id);
         }
     }
