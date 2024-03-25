@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  
+  <ItemGroup>
+  	<ProjectReference Include="..\BankConfirmation_DAL_ADO\BankConfirmation_DAL_ADO.csproj" />
+  	<ProjectReference Include="..\BankConfirmation_DTO\BankConfirmation_DTO.csproj" />
+	<ProjectReference Include="..\BankConfirmation_IF\BankConfirmation_IF.csproj" />
+	<ProjectReference Include="..\BankConfirmation_DAL_EF\BankConfirmation_DAL_EF.csproj" />
+  </ItemGroup>
+	
+</Project>

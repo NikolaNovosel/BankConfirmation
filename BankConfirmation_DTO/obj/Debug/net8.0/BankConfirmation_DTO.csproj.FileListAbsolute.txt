@@ -1,0 +1,56 @@
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfo.cs
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.deps.json
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\refint\BankConfirmation_DTO.dll
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\Documents\NEW\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\ref\BankConfirmation_DTO.dll
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.deps.json
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfo.cs
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\refint\BankConfirmation_DTO.dll
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\Documents\Work\IT\Requested Work\Epam\BankConfirmation\C#\BankConfirmation\BankConfirmation_DTO\obj\Debug\net8.0\ref\BankConfirmation_DTO.dll
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.deps.json
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfo.cs
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\refint\BankConfirmation_DTO.dll
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\Downloads\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\ref\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.deps.json
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfoInputs.cache
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfo.cs
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.csproj.CoreCompileInputs.cache
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\refint\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-main\BankConfirmation-main\BankConfirmation_DTO\obj\Debug\net8.0\ref\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.deps.json
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\bin\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfoInputs.cache
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.AssemblyInfo.cs
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.csproj.CoreCompileInputs.cache
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.sourcelink.json
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\obj\Debug\net8.0\refint\BankConfirmation_DTO.dll
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\obj\Debug\net8.0\BankConfirmation_DTO.pdb
+C:\Users\DELL\New\Work\IT\Required\Epam\BankConfirmation\C#\BankConfirmation-git\BankConfirmation_DTO\obj\Debug\net8.0\ref\BankConfirmation_DTO.dll
