@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\BankConfirmation_UI_MVC.props" />
-</Project>
