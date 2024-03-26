@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BankConfirmation_DAL_ADO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9739c38eb057e26bd1734285ca795c7b1badea99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3150471765b78f635c12752ecd794cc0d3f0779f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BankConfirmation_DAL_ADO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BankConfirmation_DAL_ADO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

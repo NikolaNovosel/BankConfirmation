@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.IO;
 using System.Xml.Serialization;
 
@@ -14,6 +15,7 @@ namespace BankConfirmation_DTO
         public DateTime AccountDateOpen { get; set; }
         public string AccountType { get; set; }
         public int ClientId { get; set; }
+        [ForeignKey("ClientId")]
         [XmlIgnore]
         public Client Client { get; set; }
         public void GetXml()

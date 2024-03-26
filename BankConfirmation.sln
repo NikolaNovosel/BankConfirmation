@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankConfirmation_REST", "Ba
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankConfirmation_UI_MVC", "BankConfirmation_UI_MVC\BankConfirmation_UI_MVC.csproj", "{795BB5C0-21EE-4F98-BC00-F754D9A95805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreate", "FileCreate\FileCreate.csproj", "{E2606409-DF2A-4405-B766-EB0EB1F79811}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileCreate", "FileCreate\FileCreate.csproj", "{E2606409-DF2A-4405-B766-EB0EB1F79811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankConfirmation_UI_WF", "BankConfirmation_UI_WF\BankConfirmation_UI_WF.csproj", "{5244A7B3-CEF9-47DF-9F5E-F6CDD44370A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{E2606409-DF2A-4405-B766-EB0EB1F79811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2606409-DF2A-4405-B766-EB0EB1F79811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2606409-DF2A-4405-B766-EB0EB1F79811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5244A7B3-CEF9-47DF-9F5E-F6CDD44370A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5244A7B3-CEF9-47DF-9F5E-F6CDD44370A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5244A7B3-CEF9-47DF-9F5E-F6CDD44370A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5244A7B3-CEF9-47DF-9F5E-F6CDD44370A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

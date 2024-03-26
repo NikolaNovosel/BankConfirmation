@@ -1,18 +1,17 @@
-﻿using BankConfirmation_UI_MVC.REST;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
-namespace BankConfirmation_REST.REST
+namespace BankConfirmation_UI_MVC.REST
 {
-    public class ServiceRest<T> : Rest
+    internal class ServiceRest<T> : Rest
     {
-        public List<T> GetList(string url)
+        internal List<T> GetList(string url)
         {
             using HttpClient httpClient = new();
             HttpResponseMessage response = httpClient.GetAsync(baseAddress + url).Result;
             string data = response.Content.ReadAsStringAsync().Result;
             return JsonConvert.DeserializeObject<List<T>>(data);
         }
-        public T GetT(int id, string url)
+        internal T GetT(int id, string url)
         {
             using HttpClient httpClient = new();
             HttpResponseMessage response = httpClient.GetAsync(baseAddress + url + "/" + id.ToString()).Result;
@@ -20,7 +19,7 @@ namespace BankConfirmation_REST.REST
             return JsonConvert.DeserializeObject<T>(data);
         }
 
-        public T SearchT(string search, string url)
+        internal T SearchT(string search, string url)
         {
             using HttpClient httpClient = new();
             HttpResponseMessage response = httpClient.GetAsync(baseAddress + url + "/" + search.ToString()).Result;
@@ -28,17 +27,17 @@ namespace BankConfirmation_REST.REST
             return JsonConvert.DeserializeObject<T>(data);   
         }
 
-        public void PutT(T obj, string url)
+        internal void PutT(T obj, string url)
         {
             using HttpClient httpClient = new();
             HttpResponseMessage response = httpClient.PutAsJsonAsync(baseAddress + url, obj).Result;
         }
-        public void PostT(T obj, string url)
+        internal void PostT(T obj, string url)
         {
             using HttpClient httpClient = new();
             HttpResponseMessage response = httpClient.PostAsJsonAsync(baseAddress + url, obj).Result;
         }
-        public void DeleteT(int id, string url)
+        internal void DeleteT(int id, string url)
         {
             using HttpClient httpClient = new();
             HttpResponseMessage response = httpClient.DeleteAsync(baseAddress + url + "/" + id.ToString()).Result;   

@@ -1,11 +1,9 @@
 ﻿using BankConfirmation_DTO;
 using BankConfirmation_IF;
-using BankConfirmation_REST.REST;
-using Newtonsoft.Json;
 
 namespace BankConfirmation_UI_MVC.REST
 {
-    public class AccountRest : ServiceRest<Account>, IAccount
+    internal class AccountRest : ServiceRest<Account>, IAccount
     {
         public void Delete(int id)
         {

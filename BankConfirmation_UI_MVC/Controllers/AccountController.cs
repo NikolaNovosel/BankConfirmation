@@ -1,5 +1,4 @@
 ﻿using BankConfirmation_UI_MVC.REST;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BankConfirmation_UI_MVC.Controllers

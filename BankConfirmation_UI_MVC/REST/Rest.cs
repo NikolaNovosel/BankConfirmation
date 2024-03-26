@@ -3,7 +3,7 @@ using System.Text;
 
 namespace BankConfirmation_UI_MVC.REST
 {
-    public class Rest
+    internal class Rest
     {
         private static string GetPath()
         {
