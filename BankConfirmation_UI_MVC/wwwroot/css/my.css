@@ -1,0 +1,188 @@
+html {
+  font-size: 14px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: url(/css/addiko_FormLayout.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+footer {
+    background-color: #ff6565;
+}
+
+header {
+    display: flex;
+}
+.border-top footer text-muted {
+    position: fixed;
+}
+#footer-position{
+    position:fixed;
+}
+.footer-container{
+    margin-left:2%;
+}
+.footer-container ul li {
+    list-style: none;
+    color: white;
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-container ul li:hover a {
+    text-decoration: none;
+    color: cadetblue;
+}
+.home-menu {
+    background-color: #ff6565;
+    width: 250px;
+}
+.home-menu ul {
+    padding-left: 0px;
+    margin: 30px 50px 10px 10px;
+}
+.home-menu ul li {
+    list-style: none;
+    width:fit-content;
+    text-align:center;
+}
+
+.home-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.home-menu:hover ul li a {
+    color: cadetblue;
+}
+.menu-bar {
+    background-color: #ff6565;
+    width: 90%;
+    box-sizing:border-box;
+}
+.menu-bar ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size:17px;
+    padding-left: 0%;
+    padding-right: 0%;
+    width:90%;
+    margin:auto;
+    text-align:center;
+}
+.menu-bar ul li {
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size:15px;
+    font-weight:600;
+}
+.menu-bar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: royalblue;
+    margin-top: 15px;
+    margin-left:0px;
+}
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu ul li{
+    width:105px;
+    padding:10px;
+    padding-left:0px;
+    text-align: left;
+    border-bottom:1px dotted #fff;
+    border-radius:0;
+}
+.menu-bar ul li:hover .sub-menu ul li a {
+    color: white;
+    height: 50px;
+    display: block;
+    text-align:left;
+    width:105px;
+}
+.menu-bar ul li:hover .sub-menu ul li:hover a {
+    color: cadetblue;
+}
+.menu-bar ul li:hover .sub-menu i {
+    margin-left:-150px;
+}
+.sub-menu{
+    display:none;
+}
+.table {
+    box-sizing: border-box;
+    color: white;
+    background-color: royalblue;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.table tbody tr td a{
+    color:white;
+}
+.row {
+    box-sizing: border-box;
+    color: white;
+    background-color: royalblue;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-right:0px;
+}
+.row-noform {
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    color: white;
+    background-color: royalblue;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.col-md-4{
+    box-sizing:border-box;
+    display:inline-flex;
+    margin:auto;
+    margin-left:0px;
+    margin-right:0px;
+    width:2500px;
+}
+.col-sm-10 {
+    width: 300px;
+    margin:auto;
+    background-color:royalblue;
+}
+.col-sm-2 {
+    width: 170px;
+    margin: auto;
+}
+.form-group {
+    text-align:center;
+    margin-left: 0px;
+}
+.form-control{
+    text-align:center;
+}
+.form-group-input {
+
+}
+.form-group-input-delete{
+    display:inline-flex;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BankConfirmation_UI_WF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3150471765b78f635c12752ecd794cc0d3f0779f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2874f77126c1103abdab13ed9f045e041b6c21ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("BankConfirmation_UI_WF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BankConfirmation_UI_WF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

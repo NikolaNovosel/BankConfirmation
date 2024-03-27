@@ -16,4 +16,8 @@
 	<ProjectReference Include="..\BankConfirmation_REST\BankConfirmation_REST.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Client\" />
+  </ItemGroup>
+
 </Project>

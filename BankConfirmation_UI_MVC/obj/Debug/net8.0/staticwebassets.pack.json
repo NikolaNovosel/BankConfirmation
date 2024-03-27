@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\BankConfirmation_UI_MVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\css\\addiko_FormLayout.jpg",
+      "PackagePath": "staticwebassets\\css\\addiko_FormLayout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\css\\my.css",
+      "PackagePath": "staticwebassets\\css\\my.css"
+    },
+    {
       "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -243,6 +251,18 @@
     {
       "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\jqueryFilterSearch.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jqueryFilterSearch.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\jqueryLiveSearch.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jqueryLiveSearch.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\jquerySearch.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquerySearch.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BankConfirmation_UI_MVC.Microsoft.AspNetCore.StaticWebAssets.props",

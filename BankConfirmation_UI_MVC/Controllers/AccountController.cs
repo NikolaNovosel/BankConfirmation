@@ -1,4 +1,5 @@
-﻿using BankConfirmation_UI_MVC.REST;
+﻿using BankConfirmation_DTO;
+using BankConfirmation_UI_MVC.REST;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BankConfirmation_UI_MVC.Controllers
@@ -80,6 +81,17 @@ namespace BankConfirmation_UI_MVC.Controllers
             {
                 return View();
             }
+        }
+        public ActionResult SelectByClient()
+        {
+            return View();
+        }
+        public ActionResult Select(int id)
+        {
+            Account account = new();
+            account.ClientId = id;
+            
+            return View(account);
         }
     }
 }
