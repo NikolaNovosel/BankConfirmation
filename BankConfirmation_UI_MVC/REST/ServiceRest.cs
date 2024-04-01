@@ -1,13 +1,14 @@
-﻿using Newtonsoft.Json;
+﻿
+using Newtonsoft.Json;
 
 namespace BankConfirmation_UI_MVC.REST
 {
     internal class ServiceRest<T> : Rest
     {
-        internal List<T> GetList(string url)
+        internal List<T> GetListT(string url)
         {
             using HttpClient httpClient = new();
-            HttpResponseMessage response = httpClient.GetAsync(baseAddress + url).Result;
+            HttpResponseMessage response= httpClient.GetAsync(baseAddress+url).Result;
             string data = response.Content.ReadAsStringAsync().Result;
             return JsonConvert.DeserializeObject<List<T>>(data);
         }
@@ -18,7 +19,6 @@ namespace BankConfirmation_UI_MVC.REST
             string data = response.Content.ReadAsStringAsync().Result;
             return JsonConvert.DeserializeObject<T>(data);
         }
-
         internal T SearchT(string search, string url)
         {
             using HttpClient httpClient = new();
@@ -26,7 +26,6 @@ namespace BankConfirmation_UI_MVC.REST
             string data = response.Content.ReadAsStringAsync().Result;
             return JsonConvert.DeserializeObject<T>(data);   
         }
-
         internal void PutT(T obj, string url)
         {
             using HttpClient httpClient = new();

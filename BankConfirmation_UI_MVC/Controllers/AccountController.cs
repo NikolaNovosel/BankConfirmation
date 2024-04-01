@@ -1,5 +1,6 @@
 ﻿using BankConfirmation_DTO;
 using BankConfirmation_UI_MVC.REST;
+using BankConfirmations_BLL;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BankConfirmation_UI_MVC.Controllers
@@ -10,74 +11,97 @@ namespace BankConfirmation_UI_MVC.Controllers
         public ActionResult Index()
         {
             AccountRest accountRest = new ();
-
             return View(accountRest.GetAll());
         }
 
         // GET: AccountController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            AccountRest accountRest = new(); 
+            var result = accountRest.GetById(id);
+            if (result==null) return NotFound();
+            return View(result);
         }
 
         // GET: AccountController/Create
         public ActionResult Create()
         {
-            return View();
+            Account account = new();
+            return View(account);
         }
 
         // POST: AccountController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Account account)
         {
-            try
+            AccountRest accountRest = new();
+            if (ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    accountRest.Insert(account);
+                    return RedirectToAction(nameof(Index));
+                }
+                catch(Exception)
+                {
+                }
             }
-            catch
-            {
-                return View();
-            }
+            return View();
         }
 
         // GET: AccountController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            AccountRest accountRest = new();
+            var result = accountRest.GetById(id);
+            if (result==null) return NotFound();
+            return View(result);
         }
 
         // POST: AccountController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(Account account)
         {
-            try
+            AccountRest accountRest = new();
+            if (ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    accountRest.Update(account);
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.ErrorMessage = ex;
+                }
             }
-            catch
-            {
-                return View();
-            }
+            return View();
         }
 
         // GET: AccountController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            AccountRest accountRest = new();
+            var result = accountRest.GetById(id);
+            if (result==null) return NotFound();
+            return View(result);
         }
 
         // POST: AccountController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, Account account)
         {
+            AccountRest accountRest = new();
+            if (id!=account.Id) return NotFound();
             try
             {
+                accountRest.Delete(id);
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch(Exception ex)
             {
                 return View();
             }

@@ -1,11 +1,7 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    min-height: 100%;
 }
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
     margin-bottom: 60px;
     background: url(/css/addiko_FormLayout.jpg) no-repeat center center fixed;
@@ -14,9 +10,64 @@ body {
 footer {
     background-color: #ff6565;
 }
-
 header {
     display: flex;
+}
+.img-bank {
+    width: 216px;
+    height: 417px;
+}
+.row-set {
+    box-sizing: border-box;
+    color: white;
+    background-color: royalblue;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-right: 0px;
+    width:38rem;
+}
+.h-set {
+    text-align: center;
+    padding-right:0.2em;
+}
+.form-set {
+    width: 18em;
+}
+.btn-set {
+    font-size: large;
+    width: 5em;
+}
+.div-get{
+    margin:auto;
+}
+.dl-get {
+    width: 18em;
+    margin-left: 0.4em;
+}
+
+.dt-get {
+    padding: 0.25em;
+    margin-right:0.6em;
+    background-color: royalblue;
+    color: orangered;
+}
+
+.dd-get {
+    padding: 0.25em;
+    margin-left: 0.6em;
+}
+.index-p {
+    text-align: start;
+    align-items: baseline;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    padding-right:0.2em;
+}
+.index-create {
+    text-decoration: solid;
+    font-size: 2.5rem;
+    color: black;
 }
 .border-top footer text-muted {
     position: fixed;
@@ -133,15 +184,6 @@ header {
 }
 .table tbody tr td a{
     color:white;
-}
-.row {
-    box-sizing: border-box;
-    color: white;
-    background-color: royalblue;
-    font-weight: 600;
-    margin-bottom: 15px;
-    text-align: center;
-    margin-right:0px;
 }
 .row-noform {
     display: block;

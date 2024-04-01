@@ -1,0 +1,78 @@
+﻿@model BankConfirmation_DTO.Client
+
+@{
+    ViewData["Title"] = "Create";
+}
+<br />
+<br />
+<div class="row row-set">
+    <div class="col-md-4">
+        <img class="img-bank" src="https://www.addiko.rs/static/uploads/Addiko-Office-hrcak-Oskar-rgb-merge-e1650631123885.png" />
+        <div class="col-md-6">
+            <h1 class="h-set">Create Client</h1>
+            <br />
+            <br />
+            <form asp-action="Create" class="form-set">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClientIdNumber" class="control-label"></label>
+                    <input asp-for="ClientIdNumber" class="form-control" />
+                    <span asp-validation-for="ClientIdNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClientAddress" class="control-label"></label>
+                    <input asp-for="ClientAddress" class="form-control" />
+                    <span asp-validation-for="ClientAddress" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClientCity" class="control-label"></label>
+                    <input asp-for="ClientCity" class="form-control" />
+                    <span asp-validation-for="ClientCity" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClientCountry" class="control-label"></label>
+                    <input asp-for="ClientCountry" class="form-control" />
+                    <span asp-validation-for="ClientCountry" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EntryBranch" class="control-label"></label>
+                    <input asp-for="EntryBranch" class="form-control" />
+                    <span asp-validation-for="EntryBranch" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EntryCity" class="control-label"></label>
+                    <input asp-for="EntryCity" class="form-control" />
+                    <span asp-validation-for="EntryCity" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EntryDate" class="control-label"></label>
+                    <input asp-for="EntryDate" class="form-control" />
+                    <span asp-validation-for="EntryDate" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-success btn-set" />
+                </div>
+                <br />
+                <div class="form-group">
+                    <a asp-action="Index" class="btn btn-warning">Back to list</a>
+                </div>
+                <br />
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

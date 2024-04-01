@@ -1,5 +1,7 @@
 ﻿using BankConfirmation_DTO;
 using BankConfirmation_IF;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace BankConfirmation_UI_MVC.REST
 {
@@ -9,25 +11,21 @@ namespace BankConfirmation_UI_MVC.REST
         {
             DeleteT(id, "account");
         }
-
         public List<Account> GetAll()
         {
-            return GetList("account");
+            return GetListT("account");
         }
-
         public Account GetById(int id)
         {
             return GetT(id, "account");
         }
-
         public void Insert(Account account)
         {
-            PutT(account, "account");
+            PostT(account,"account");
         }
-
         public void Update(Account account)
         {
-            PostT(account, "account");
+            PutT(account,"account");
         }
     }
 }

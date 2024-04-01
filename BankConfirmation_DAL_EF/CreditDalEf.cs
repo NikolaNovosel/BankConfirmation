@@ -8,12 +8,12 @@ namespace BankConfirmation_DAL_EF
     {
         public void Delete(int id)
         {
-            var result = Credit.First(i => i.Id == id);
+            var result = Credit.Find(id);
             Credit.Remove(result);
             SaveChanges();
         }
 
-        public List<Credit> GetAll() => [.. Credit.Include(i=>i.Client)];
+        public List<Credit> GetAll() => [..Credit];
 
         public Credit GetById(int id) => Credit.Include(i=>i.Client).First(i => i.Id == id);
 

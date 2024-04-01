@@ -1,0 +1,58 @@
+﻿@model BankConfirmation_DTO.Account
+
+@{
+    ViewData["Title"] = "Create";
+}
+<br />
+<br />
+<div class="row row-set">
+    <div class="col-md-4">
+        <img class="img-bank" src="https://www.addiko.rs/static/uploads/Addiko-Office-hrcak-Oskar-rgb-merge-e1650631123885.png" />
+        <div class="col-md-6">
+            <h1 class="h-set">Create Account</h1>
+            <br />
+            <br />
+            <form asp-action="Create" class="form-set">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Number" class="control-label"></label>
+                    <input asp-for="Number" class="form-control" />
+                    <span asp-validation-for="Number" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Balance" class="control-label"></label>
+                    <input value="@Model.Balance.ToString()" asp-for="Balance" class="form-control" />
+                    <span asp-validation-for="Balance" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AccountDateOpen" class="control-label"></label>
+                    <input asp-for="AccountDateOpen" class="form-control" />
+                    <span asp-validation-for="AccountDateOpen" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AccountType" class="control-label"></label>
+                    <input asp-for="AccountType" class="form-control" />
+                    <span asp-validation-for="AccountType" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClientId" class="control-label"></label>
+                    <input asp-for="ClientId" class="form-control" />
+                    <span asp-validation-for="ClientId" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-success btn-set" />
+                </div>
+                <br />
+                <div class="form-group">
+                    <a asp-action="Index" class="btn btn-warning" />Back to list</a>
+                </div>
+                <br />
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

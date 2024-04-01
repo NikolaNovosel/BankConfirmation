@@ -1,0 +1,68 @@
+﻿@model BankConfirmation_DTO.Account
+
+@{
+    ViewData["Title"] = "Details";
+}
+<br />
+<br />
+<div class="row row-set">
+    <div class="col-md-4">
+        <img class="img-bank" src="https://www.addiko.rs/static/uploads/Addiko-Office-hrcak-Oskar-rgb-merge-e1650631123885.png" />
+        <div class="col-md-6 div-get">
+            <br />
+            <h1 class="h-get">Delete Account</h1>
+            <dl class="row dl-get">
+                <dt class="col-sm-6 dt-get">
+                    @Html.DisplayNameFor(model => model.Id)
+                </dt>
+                <dd class="col-sm-5 dd-get">
+                    @Html.DisplayFor(model => model.Id)
+                </dd>
+                <dt class="col-sm-6 dt-get">
+                    @Html.DisplayNameFor(model => model.Number)
+                </dt>
+                <dd class="col-sm-5 dd-get">
+                    @Html.DisplayFor(model => model.Number)
+                </dd>
+                <dt class="col-sm-6 dt-get">
+                    @Html.DisplayNameFor(model => model.Balance)
+                </dt>
+                <dd class="col-sm-5 dd-get">
+                    @Html.DisplayFor(model => model.Balance)
+                </dd>
+                <dt class="col-sm-6 dt-get">
+                    @Html.DisplayNameFor(model => model.AccountDateOpen)
+                </dt>
+                <dd class="col-sm-5 dd-get">
+                    @Html.DisplayFor(model => model.AccountDateOpen)
+                </dd>
+                <dt class="col-sm-6 dt-get">
+                    @Html.DisplayNameFor(model => model.AccountType)
+                </dt>
+                <dd class="col-sm-5 dd-get">
+                    @Html.DisplayFor(model => model.AccountType)
+                </dd>
+                <dt class="col-sm-6 dt-get">
+                    @Html.DisplayNameFor(model => model.ClientId)
+                </dt>
+                <dd class="col-sm-5 dd-get">
+                    @Html.DisplayFor(model => model.ClientId)
+                </dd>
+                <span>
+                    <br />
+                    <br />
+                </span>
+                <form asp-action="Delete">
+                    <input type="submit" value="Delete" class="btn btn-danger btn-set" />
+                </form>
+                <span>
+                    <br />
+                    <br />
+                </span>
+                <div class="form-group">
+                    <a asp-action="Index" class="btn btn-warning">Back to list</a>
+                </div>
+            </dl>
+        </div>
+    </div>
+</div>

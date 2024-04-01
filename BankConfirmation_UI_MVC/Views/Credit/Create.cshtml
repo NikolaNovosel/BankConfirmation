@@ -1,0 +1,64 @@
+﻿@model BankConfirmation_DTO.Credit
+
+@{
+    ViewData["Title"] = "Create";
+}
+<br />
+<br />
+<div class="row row-set">
+    <div class="col-md-4">
+        <img class="img-bank" src="https://www.addiko.rs/static/uploads/Addiko-Office-hrcak-Oskar-rgb-merge-e1650631123885.png" />
+        <div class="col-md-6">
+            <h1 class="h-set">Create Credit</h1>
+            <br />
+            <br />
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="AgreementNumber" class="control-label"></label>
+                    <input asp-for="AgreementNumber" class="form-control" />
+                    <span asp-validation-for="AgreementNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CreditNumber" class="control-label"></label>
+                    <input asp-for="CreditNumber" class="form-control" />
+                    <span asp-validation-for="CreditNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PaymentNumber" class="control-label"></label>
+                    <input asp-for="PaymentNumber" class="form-control" />
+                    <span asp-validation-for="PaymentNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DebtCurrent" class="control-label"></label>
+                    <input asp-for="DebtCurrent" class="form-control" value="@Model.DebtCurrent.ToString()" />
+                    <span asp-validation-for="DebtCurrent" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FeeCurrent" class="control-label"></label>
+                    <input asp-for="FeeCurrent" class="form-control" value="@Model.FeeCurrent.ToString()" />
+                    <span asp-validation-for="FeeCurrent" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ClientId" class="control-label"></label>
+                    <input asp-for="ClientId" class="form-control" />
+                    <span asp-validation-for="ClientId" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-success btn-set" />
+                </div>
+                <br />
+                <div class="form-group">
+                    <a asp-action="Index" class="btn btn-warning" />Back to list</a>
+                </div>
+                <br />
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

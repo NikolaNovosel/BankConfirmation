@@ -5,27 +5,27 @@ namespace BankConfirmations_BLL
 {
     public class CreditCardBll
     {
-        public static List<CreditCard> GetAll()
+        public List<CreditCard> GetAll()
         {
             ICreditCard creditCardDal = Factory.GetCreditCard(DalType.ef);
             return creditCardDal.GetAll();
         }
-        public static CreditCard GetById(int id)
+        public CreditCard GetById(int id)
         {
             ICreditCard creditCardDal = Factory.GetCreditCard(DalType.ef);
             return creditCardDal.GetById(id);
         }
-        public static void Insert(CreditCard creditCard)
+        public void Insert(CreditCard creditCard)
         {
             ICreditCard creditCardDal = Factory.GetCreditCard(DalType.ef);
             creditCardDal.Insert(creditCard);
         }
-        public static void Update(CreditCard creditCard)
+        public void Update(CreditCard creditCard)
         {
             ICreditCard creditCardDal = Factory.GetCreditCard(DalType.ef);
             creditCardDal.Update(creditCard);
         }
-        public static void Delete(int id)
+        public void Delete(int id)
         {
             ICreditCard creditCardDal = Factory.GetCreditCard(DalType.ef);
             creditCardDal.Delete(id);

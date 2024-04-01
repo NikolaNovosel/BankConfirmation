@@ -5,7 +5,7 @@ namespace BankConfirmation_DAL_EF
 {
     public class BankConfirmationContext : DbContext
     {
-        Connection connection = new Connection();
+        private readonly Connection connection = new ();
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
             builder.UseSqlServer(connection.connectionString);

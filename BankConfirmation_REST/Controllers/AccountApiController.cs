@@ -14,58 +14,56 @@ namespace BankConfirmation_REST.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(AccountBll.GetAll());
+            AccountBll accountBll = new();
+            return Ok(accountBll.GetAll());
         }
 
         // GET api/<AccountApiController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var result = AccountBll.GetById(id);
-            return Ok(result);
+            AccountBll accountBll = new();
+            return Ok(accountBll.GetById(id));
         }
 
         // POST api/<AccountApiController>
         [HttpPost]
         public IActionResult Post(Account account)
         {
-            AccountBll.Insert(account);
-            return CreatedAtAction(nameof(Get), new { id = account.Id }, account);
-
-        }
-
-        // PUT api/<AccountApiController>/5
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, Account account)
-        {
-            if (id != account.Id)
-            {
-                return BadRequest("account Id missmatch");
-            }
-
+            AccountBll accountBll = new();
             try
             {
-                AccountBll.Update(account);
+                accountBll.Insert(account);
             }
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error");
             }
+            return CreatedAtAction(nameof(Get), new { id = account.Id }, account);
+        }
 
-            return NoContent();
+        // PUT api/<AccountApiController>/5
+        [HttpPut]
+        public IActionResult Put(Account account)
+        {
+            AccountBll accountBll = new();
+            try
+            {
+                accountBll.Update(account);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error");
+            }
+            return CreatedAtAction(nameof(Get), new { id = account.Id }, account);
         }
 
         // DELETE api/<AccountApiController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var result = AccountBll.GetById(id);
-
-            if (result==null)
-            {
-                NotFound();
-            }
-            AccountBll.Delete(id);
+            AccountBll accountBll = new();
+            accountBll.Delete(id);
             return NoContent();
         }
     }

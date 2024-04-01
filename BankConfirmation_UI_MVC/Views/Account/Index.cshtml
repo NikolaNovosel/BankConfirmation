@@ -4,11 +4,6 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -27,7 +22,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.AccountType)
             </th>
-            <th></th>
+            <th>
+                <p class="index-p">Operations</p>
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -49,9 +46,9 @@
                 @Html.DisplayFor(modelItem => item.AccountType)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) 
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) 
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
             </td>
         </tr>
 }

@@ -7,7 +7,7 @@ namespace BankConfirmation_DAL_EF
     {
         public void Delete(int id)
         {
-            var result = Client.First(i => i.Id == id);
+            var result = Client.Find(id);
             Client.Remove(result);
             SaveChanges();
         }

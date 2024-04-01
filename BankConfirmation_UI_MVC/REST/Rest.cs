@@ -21,7 +21,7 @@ namespace BankConfirmation_UI_MVC.REST
             }
             return null;
         }
-        private static dynamic json = JsonConvert.DeserializeObject(GetPath());
+        private static readonly dynamic json = JsonConvert.DeserializeObject(GetPath());
         internal readonly string baseAddress = (string)(json["HostApi"]);
     }
 }

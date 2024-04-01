@@ -8,14 +8,12 @@ namespace BankConfirmation_DAL_EF
     {
         public void Delete(int id)
         {
-            var result = Account.First(i=>i.Id==id);
+            var result = Account.Find(id);
             Account.Remove(result);
             SaveChanges();
         }
-
         public List<Account> GetAll() => [..Account];
-
-        public Account GetById(int id) => Account.First(i=>i.Id==id);
+        public Account GetById(int id) => Account.Include(i=>i.Client).First(i=>i.Id==id);
 
         public void Insert(Account account)
         {

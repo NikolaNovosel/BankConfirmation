@@ -14,55 +14,56 @@ namespace BankConfirmation_REST.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(ClientBll.GetAll());
+            ClientBll clientBll = new();
+            return Ok(clientBll.GetAll());
         }
 
         // GET api/<ClientApiController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var result = ClientBll.GetById(id);
-            return Ok(result);
+            ClientBll clientBll = new();
+            return Ok(clientBll.GetById(id));
         }
 
         // POST api/<ClientApiController>
         [HttpPost]
         public IActionResult Post(Client client)
         {
-            ClientBll.Insert(client);
+            ClientBll clientBll = new();
+            try
+            {
+                clientBll.Insert(client);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,"Error");   
+            }
             return CreatedAtAction(nameof(Get), new { id = client.Id }, client);
         }
 
         // PUT api/<ClientApiController>/5
-        [HttpPut("{id}")]
-        public ActionResult Put(int id, Client client)
+        [HttpPut]
+        public ActionResult Put(Client client)
         {
-            if (id != client.Id)
-            {
-                return BadRequest("client Id missmatch");
-            }
-
+            ClientBll clientBll = new();
             try
             {
-                ClientBll.Update(client);
+                clientBll.Update(client);
             }
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error");
             }
-
-            return NoContent();
+            return CreatedAtAction(nameof(Get), new { id=client.Id }, client);
         }
 
         // DELETE api/<ClientApiController>/5
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            var result = ClientBll.GetById(id);
-            if (result == null)
-            {
-                NotFound();
-            }
+            ClientBll clientBll = new();
+            clientBll.Delete(id);
             return NoContent();
         }
     }
