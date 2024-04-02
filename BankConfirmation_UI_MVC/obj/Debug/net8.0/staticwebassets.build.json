@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H8gEcL76ERLtWxnzcaaYNOa44oqwRHS/B7OJN41fQKo=",
+  "Hash": "CT4rqpmK3lJCvkpEiKtQpYvnVNHeDF9fGCpJC5EBpQc=",
   "Source": "BankConfirmation_UI_MVC",
   "BasePath": "_content/BankConfirmation_UI_MVC",
   "Mode": "Default",
@@ -1074,12 +1074,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\jquerySearchByClient.js",
+      "Identity": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\SearchByClient.js",
       "SourceId": "BankConfirmation_UI_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\",
       "BasePath": "_content/BankConfirmation_UI_MVC",
-      "RelativePath": "lib/jquery/dist/jquerySearchByClient.js",
+      "RelativePath": "lib/jquery/dist/SearchByClient.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1090,7 +1090,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquerySearchByClient.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\SearchByClient.js"
     },
     {
       "Identity": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",

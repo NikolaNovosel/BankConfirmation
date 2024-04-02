@@ -8,9 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BankConfirmation_BLL\BankConfirmation_BLL.csproj" />
     <ProjectReference Include="..\BankConfirmation_DTO\BankConfirmation_DTO.csproj" />
-    <ProjectReference Include="..\BankConfirmation_UI_MVC\BankConfirmation_UI_MVC.csproj" />
   </ItemGroup>
 
 </Project>

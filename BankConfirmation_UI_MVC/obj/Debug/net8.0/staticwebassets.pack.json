@@ -241,6 +241,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\SearchByClient.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\SearchByClient.js"
+    },
+    {
       "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
@@ -251,10 +255,6 @@
     {
       "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "C:\\Users\\DELL\\New\\Work\\IT\\Required\\Epam\\BankConfirmation\\C#\\BankConfirmation-git\\BankConfirmation_UI_MVC\\wwwroot\\lib\\jquery\\dist\\jquerySearchByClient.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquerySearchByClient.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BankConfirmation_UI_MVC.Microsoft.AspNetCore.StaticWebAssets.props",

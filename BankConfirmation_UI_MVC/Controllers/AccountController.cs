@@ -1,6 +1,5 @@
 ﻿using BankConfirmation_DTO;
 using BankConfirmation_UI_MVC.REST;
-using BankConfirmations_BLL;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BankConfirmation_UI_MVC.Controllers
@@ -101,7 +100,7 @@ namespace BankConfirmation_UI_MVC.Controllers
                 accountRest.Delete(id);
                 return RedirectToAction(nameof(Index));
             }
-            catch(Exception ex)
+            catch(Exception)
             {
                 return View();
             }
@@ -110,12 +109,30 @@ namespace BankConfirmation_UI_MVC.Controllers
         {
             return View();
         }
-        public ActionResult Select(int id)
+        public ActionResult CreateByClient(int id)
         {
             Account account = new();
             account.ClientId = id;
-            
             return View(account);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CreateByClient(Account account)
+        {
+            AccountRest accountRest = new();
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    accountRest.Insert(account);
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+            return View();
         }
     }
 }
