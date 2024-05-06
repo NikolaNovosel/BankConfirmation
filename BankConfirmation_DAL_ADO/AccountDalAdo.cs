@@ -51,12 +51,18 @@ namespace BankConfirmations_DAL_ADO
             {
                 while (reader.Read())
                 {
-                    account.Id = reader.GetInt32("Id");
                     account.Number = reader.GetString("Number");
                     account.Balance = reader.GetDecimal("Balance");
                     account.AccountDateOpen = reader.GetDateTime("AccountDateOpen");
                     account.AccountType = reader.GetString("AccountType");
                     account.ClientId = reader.GetInt32("ClientId");
+                    account.Client = new ();
+                    account.Client.FirstName = reader.GetString("FirstName");
+                    account.Client.LastName = reader.GetString("LastName");
+                    account.Client.ClientIdNumber = reader.GetString("ClientIdNumber");
+                    account.Client.ClientCity = reader.GetString("ClientCity");
+                    account.Client.ClientAddress = reader.GetString("ClientAddress");
+                    account.Client.ClientCountry = reader.GetString("ClientCountry");
                 }
             }
             con.Close();
@@ -70,11 +76,11 @@ namespace BankConfirmations_DAL_ADO
             using SqlCommand cmd = new("InsertAccount", con);
             con.Open();
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("Number", account.Number);
-            cmd.Parameters.AddWithValue("Balance", account.Balance);
-            cmd.Parameters.AddWithValue("AccountDateOpen", account.AccountDateOpen);
-            cmd.Parameters.AddWithValue("AccountType", account.AccountType);
-            cmd.Parameters.AddWithValue("ClientId", account.ClientId);
+            cmd.Parameters.AddWithValue("@number", account.Number);
+            cmd.Parameters.AddWithValue("@balance", account.Balance);
+            cmd.Parameters.AddWithValue("@accountDateOpen", account.AccountDateOpen);
+            cmd.Parameters.AddWithValue("@accountType", account.AccountType);
+            cmd.Parameters.AddWithValue("@clientId", account.ClientId);
             cmd.ExecuteNonQuery();
             con.Close();
         }
@@ -84,12 +90,12 @@ namespace BankConfirmations_DAL_ADO
             using SqlCommand cmd = new("UpdateAccount", con);
             con.Open();
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("Id", account.Id);
-            cmd.Parameters.AddWithValue("Number", account.Number);
-            cmd.Parameters.AddWithValue("Balance", account.Balance);
-            cmd.Parameters.AddWithValue("AccountDateOpen", account.AccountDateOpen);
-            cmd.Parameters.AddWithValue("AccountType", account.AccountType);
-            cmd.Parameters.AddWithValue("ClientId", account.ClientId);
+            cmd.Parameters.AddWithValue("@id", account.Id);
+            cmd.Parameters.AddWithValue("@number", account.Number);
+            cmd.Parameters.AddWithValue("@balance", account.Balance);
+            cmd.Parameters.AddWithValue("@accountDateOpen", account.AccountDateOpen);
+            cmd.Parameters.AddWithValue("@accountType", account.AccountType);
+            cmd.Parameters.AddWithValue("@clientId", account.ClientId);
             cmd.ExecuteNonQuery();
             con.Close();
         }
@@ -99,7 +105,7 @@ namespace BankConfirmations_DAL_ADO
             using SqlCommand cmd = new("DeleteAccount", con);
             con.Open();
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("Id", id);
+            cmd.Parameters.AddWithValue("@id", id);
             cmd.ExecuteNonQuery();
             con.Close();
         }

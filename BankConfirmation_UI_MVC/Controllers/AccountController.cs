@@ -18,7 +18,7 @@ namespace BankConfirmation_UI_MVC.Controllers
         {
             AccountRest accountRest = new(); 
             var result = accountRest.GetById(id);
-            if (result==null) return NotFound();
+            if (result == null) return NotFound();
             return View(result);
         }
 
@@ -40,10 +40,19 @@ namespace BankConfirmation_UI_MVC.Controllers
                 try
                 {
                     accountRest.Insert(account);
-                    return RedirectToAction(nameof(Index));
+                    
+                    var e = new Exception();
+
+                    ViewBag.ErrorMessage = e.Message;
+
+                    return View();
+                    
+                    //return RedirectToAction(nameof(Index));
                 }
-                catch(Exception)
+                catch(Exception e)
                 {
+                    ViewBag.ErrorMessage = e.Message;
+                    return View();
                 }
             }
             return View();

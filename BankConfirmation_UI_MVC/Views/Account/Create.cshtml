@@ -5,6 +5,7 @@
 }
 <br />
 <br />
+<p>@ViewBag.ErrorMessage</p>
 <div class="row row-set">
     <div class="col-md-4">
         <img class="img-bank" src="https://www.addiko.rs/static/uploads/Addiko-Office-hrcak-Oskar-rgb-merge-e1650631123885.png" />
@@ -21,7 +22,7 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="Balance" class="control-label"></label>
-                    <input value="@Model.Balance.ToString()" asp-for="Balance" class="form-control" />
+                    <input asp-for="Balance" class="form-control" />
                     <span asp-validation-for="Balance" class="text-danger"></span>
                 </div>
                 <div class="form-group">

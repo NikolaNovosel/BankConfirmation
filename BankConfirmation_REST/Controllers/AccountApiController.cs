@@ -1,8 +1,8 @@
 ﻿using BankConfirmation_DTO;
 using BankConfirmations_BLL;
 using Microsoft.AspNetCore.Mvc;
-using System.Reflection.Metadata.Ecma335;
-using System.Security.Principal;
+using System.Text.Json;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BankConfirmation_REST.Controllers
 {
@@ -31,6 +31,7 @@ namespace BankConfirmation_REST.Controllers
         public IActionResult Post(Account account)
         {
             AccountBll accountBll = new();
+
             try
             {
                 accountBll.Insert(account);
